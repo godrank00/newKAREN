@@ -1,0 +1,44 @@
+@import url('normalize.css');
+@import url('reset.css');
+@import url('variables.css');
+@import url('fonts.css');
+
+body{
+    min-height: 100dvh;
+}
+.not-found-container{
+    height: 100dvh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.logo{
+    max-width: 169px;
+    margin-block: -50px;
+    transform: translateX(20px);
+}
+.text{
+    background-color: #fff;
+    text-align: center;
+    color: rgb(71, 101, 101);
+    padding-top: var(--space-md);
+    z-index: 10;
+}
+.text .text-1{
+    font-size: 15px;
+    font-weight: 800;
+}
+.text .text-2{
+    font-size: 14px;
+    font-weight: 800;
+}
+.count-down{
+    margin-inline: var(--space-sm);
+    color: rgb(242, 50, 72);
+    font-size: 24px;
+    font-weight: 800;
+}
+.placeholder{
+    height: 50px;
+}
